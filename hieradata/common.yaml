@@ -1,5 +1,5 @@
 ---
 message: "This node is using common data"
 #puppet_enterprise::profile::master::code_manager_auto_configure: false
-puppet_enterprise::profile::master::file_sync_enabled: true
-profile::master::code_manager::certname: pe-201732-master.puppetdebug.vlan
+#puppet_enterprise::profile::master::file_sync_enabled: true
+#profile::master::code_manager::certname: pe-201732-master.puppetdebug.vlan
