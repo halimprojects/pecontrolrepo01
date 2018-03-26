@@ -20,6 +20,7 @@ mod 'puppetlabs-satellite_pe_tools', '2.0.0'
 
 mod 'satellite_pe_tools',
   :git => 'git@github.com:halimwi/satellite_pe_tools.git'
+  :branch => 'master'
 
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
