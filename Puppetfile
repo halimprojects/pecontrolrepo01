@@ -19,7 +19,7 @@ mod 'ghoneycutt-ssh', '3.56.1'
 #  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
 
 mod 'satellite_pe_tools',
-  :git => 'git@github.com:halimwi/satellite_pe_tools.git',
+  :git => 'https://github.com/halimwi/pecontrolrepo01.git',
   :branch => 'master'
 
 #mod 'apache',
