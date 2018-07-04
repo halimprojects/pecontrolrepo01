@@ -2,3 +2,4 @@ hieradata/nodes/example-puppet-master.yaml
 spec/*
 modules/geoffwilliams-chmod_r-0.1.2/spec/*
 !.gitignore
+/modules/geoffwilliams-chmod_r-0.1.2/spec/*
