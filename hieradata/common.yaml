@@ -9,8 +9,8 @@ puppet_enterprise::profile::amq::broker::heap_mb: '96'
 # or 3.7.1 should be given a full 4 GB of RAM to meet JRuby demands.
 puppet_enterprise::master::puppetserver::jruby_max_active_instances: 1
 puppet_enterprise::profile::master::java_args:
-  Xmx: '2048m'
-  Xms: '2048m'
+  Xmx: '1024m'
+  Xms: '1024m'
   'XX:MaxPermSize': '=96m'
   'XX:PermSize': '=64m'
   'XX:+UseG1GC': ''
